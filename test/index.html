@@ -10,7 +10,16 @@
     <script src="../node_modules/mocha/mocha.js"></script>
     <script src="../node_modules/expect.js/index.js"></script>
     <script>mocha.setup('bdd')</script>
+
+    <script src="../public/dist/bundle.js"></script>
+    <script src="../public/dist/backbone.js"></script>
+    <script src="../public/dist/backbone.localStorage.js"></script>
+    <script src="../public/dist/backbone.marionette.js"></script>
+    <script src="../public/dist/backbone.radio.js"></script>
+    <script src="../public/dist/meetingBookerBundle.js"></script>
+
     <script src="example.js"></script>
+    <script src="meeting.js"></script>
     <script>
       mocha.checkLeaks();
       mocha.globals(['jQuery']);
